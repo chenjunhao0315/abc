@@ -1,6 +1,6 @@
 /**CFile****************************************************************
 
-  FileName    [rewire_miaig.h]
+  FileName    [rewireMiaig.h]
 
   SystemName  [ABC: Logic synthesis and verification system.]
 
@@ -14,7 +14,7 @@
 
   Date        [Ver. 1.0. Started - June 20, 2005.]
 
-  Revision    [$Id: rewire_miaig.h,v 1.00 2005/06/20 00:00:00 alanmi Exp $]
+  Revision    [$Id: rewireMiaig.h,v 1.00 2005/06/20 00:00:00 alanmi Exp $]
 
 ***********************************************************************/
 
@@ -26,7 +26,7 @@
 #ifdef RW_ABC
 #include "base/abc/abc.h"
 #include "aig/miniaig/miniaig.h"
-#include "rewire_map.h"
+#include "rewireMap.h"
 #define RW_INT_MAX ABC_INT_MAX
 #define Rw_MaxInt Abc_MaxInt
 #define Rw_MinInt Abc_MinInt
@@ -57,9 +57,9 @@ static inline int Rw_LitNot( int Lit )            { assert(Lit >= 0); return Lit
 static inline int Rw_LitNotCond( int Lit, int c ) { assert(Lit >= 0); return Lit ^ (int)(c > 0);                }
 static inline int Rw_LitRegular( int Lit )        { assert(Lit >= 0); return Lit & ~01;                         }
 #endif // RW_ABC
-#include "rewire_vec.h"
-#include "rewire_tt.h"
-#include "rewire_time.h"
+#include "rewireVec.h"
+#include "rewireTt.h"
+#include "rewireTime.h"
 
 
 #include <vector>

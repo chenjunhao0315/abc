@@ -1,6 +1,6 @@
 /**CFile****************************************************************
 
-  FileName    [rewire_map.c]
+  FileName    [rewireMap.c]
 
   SystemName  [ABC: Logic synthesis and verification system.]
 
@@ -14,11 +14,11 @@
 
   Date        [Ver. 1.0. Started - June 20, 2005.]
 
-  Revision    [$Id: rewire_map.c,v 1.00 2005/06/20 00:00:00 alanmi Exp $]
+  Revision    [$Id: rewireMap.c,v 1.00 2005/06/20 00:00:00 alanmi Exp $]
 
 ***********************************************************************/
 
-#include "rewire_map.h"
+#include "rewireMap.h"
 
 ABC_NAMESPACE_IMPL_START
 

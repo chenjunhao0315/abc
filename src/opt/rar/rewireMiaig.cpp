@@ -1,6 +1,6 @@
 /**CFile****************************************************************
 
-  FileName    [rewire_miaig.cpp]
+  FileName    [rewireMiaig.cpp]
 
   SystemName  [ABC: Logic synthesis and verification system.]
 
@@ -14,12 +14,12 @@
 
   Date        [Ver. 1.0. Started - June 20, 2005.]
 
-  Revision    [$Id: rewire_miaig.cpp,v 1.00 2005/06/20 00:00:00 alanmi Exp $]
+  Revision    [$Id: rewireMiaig.cpp,v 1.00 2005/06/20 00:00:00 alanmi Exp $]
 
 ***********************************************************************/
 
-#include "rewire_rar.h"
-#include "rewire_miaig.h"
+#include "rewireRar.h"
+#include "rewireMiaig.h"
 
 #define USE_OLD_LEVEL_SORTING 0
 
